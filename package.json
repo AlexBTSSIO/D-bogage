@@ -1,11 +1,23 @@
 {
   "name": "c",
   "version": "1.0.0",
-  "description": "",
+  "description": "Objectif: rendre plus sémantique le document HTML puis faire la mise en page avec la CSS et JS  [Voir](https://alexbtssio.github.io/Debogage/)",
   "main": "index.js",
   "scripts": {
     "build": "babel --no-babelrc src -w -d js --preset=env"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexBTSSIO/Debogage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexBTSSIO/Debogage/issues"
+  },
+  "homepage": "https://github.com/AlexBTSSIO/Debogage#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
